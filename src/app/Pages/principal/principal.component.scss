@@ -1,0 +1,34 @@
+
+.custom-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Opcional para centrar verticalmente */
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 150px;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#imgBotonesLog{
+  height: 28px;
+  width: 28px;
+  display:block;
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#btnLogs{
+  height: 60px;
+  width: 60px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:5px;
+  border-radius: 50%;
+}

@@ -1,0 +1,20 @@
+@-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+ion-content{
+  background-image: url('../../../assets/general/3.png');
+}
+
+ion-content{
+  --background: none;
+}
+
+.rotate-center{-webkit-animation:rotate-center 2s cubic-bezier(.895,.03,.685,.22) infinite backwards;animation:rotate-center 2s cubic-bezier(.895,.03,.685,.22) infinite backwards}
+
+.custom-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; /* Opcional para centrar verticalmente */
+  margin-left: 10px;
+}
